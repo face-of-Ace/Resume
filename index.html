@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mycv</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link type="text/css" media="all" href="assets/css/animate.css" rel="stylesheet" />
+   <link rel="stylesheet" type="text/css" href="mycv.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+   <script type="text/javascript" src="js/mycv.js"></script>
+   <script src="js/myapp.js"></script>
+   <script src="js/control/myctrl.js"></script>
+
+
+
+</head>
+<body style="background-color:#262626;">
+
+<div ng-app="myApp" ng-controller="myCtrl">
+<div class="container-fluid text-center" >
+	<div class="row" >
+		<div class="col-sm-12">
+			<div class="page-header">
+				<h1 class="animated bounce" style=" color: #fff;"><em>{{title}}</em></h1>
+				<a href="#"><span class="fa fa-home" style="background: white; color: black;"></span></a>
+				<a href="https://plus.google.com/u/1/117972299368455653211"><span class="fa fa-google" style="background: white; color: black;"></span></a>
+				<a href="https://www.facebook.com/profile.php?id=100012444557272"><span class=" fa fa-facebook" style="background: white; color: black;"></span></a>
+				<a href="https://www.linkedin.com/in/vishal-singh-a90120142/"><span class="fa fa-linkedin" style="background: white; color: black;"></span></a>
+				<a href="https://www.youtube.com/channel/UCXXLWzeLnGx3Ef-bKsH9fzQ"><span class=" fa fa-youtube" style="background: white; color: black;"></span></a>
+		</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 well">
+		<h2 class="italic" align="center">My Skill's</h2>
+		<br>
+		<br>
+		<div class="col-sm-12">
+		<img src="image/cprog.png" class="img-circle" alt="eagle" width="60" height="50" align="left">
+		<h4 class="italic" align="right">C-language</h4>
+		<br>
+		<img src="image/html.png" class="img-circle" alt="eagle" width="60" height="50" align="left">
+		<h4 class="italic" align="right">HTML-5</h4>
+		<br>
+		<img src="image/css.png" class="img-circle" alt="eagle" width="60" height="50" align="left">
+		<h4 class="italic" align="right">CSS</h4>
+		<br>
+		<img src="image/bootstrap.png" class="img-circle" alt="eagle" width="60" height="50" align="left">
+		<h4 class="italic" align="right">Bootstrap</h4>
+		<br>
+		<img src="image/javascript.png" class="img-circle" alt="eagle" width="60" height="50" align="left">
+		<h4 class="italic" align="right">JavaScript</h4>
+		<br>
+		<img src="image/angularjs.png" class="img-circle" alt="eagle" width="60" height="50" align="left">
+		<h4 class="italic" align="right">Basic angularjs.1</h4>
+		<br>
+		<img src="image/python.png" class="img-circle" alt="eagle" width="60" height="50" align="left">
+		<h4 class="italic" align="right">Basic Python</h4>
+		<br>
+		<hr>
+		</div>
+		<br>
+		<hr>
+		<h2 class="italic" align="center">Resume</h2>
+			<a href="resume.html"><img src="image/resume.png" class="img-circle" alt="eagle" width="200" height="200" align="center"></a>
+
+			<a href="resume.html"><p><i>My resume</i></p></a>
+		</div>
+		<div class="col-sm-6" >
+			<div id="wrapper">
+				<div class="scrollbar" id="style-1">
+  				<div class="force-overflow">
+  					<div id="section1" class="container-fluid">
+  <h2 class="italic">My Project's</h2>
+  <hr>
+  <h3 class="italic" align="left">1.Tech-vishal</h3>
+  	<img src="image/img1.png" alt="eagle" width="600" height="350" align="center">
+  	<br>
+  	<br>
+  <p class="italic" class="small" align="left">{{project1}}<i>HTML, CSS, BOOTSTRAP, PHP, JavaScript</i></p>
+
+</div>
+<div id="section2" class="container-fluid">
+  <h3 class="italic" align="left">2.Propeller Clock</h3>
+  <video height="250" width="400">
+  	<source src="video.mp4" type="video/mp4">
+  	 <source src="video.ogg" type="video/ogg">
+  </video>
+  <p class="italic" class="small" align="left">{{project2}}</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h3 class="italic" align="left">3.Myinfo page</h3>
+  <img src="image/info.png" alt="eagle" width="600" height="350" align="center">
+  	<br>
+  	<br>
+  <p class="italic" class="small" align="left">{{project3}}<i>HTML, CSS, BOOTSTRAP, Angularjs, JavaScript</i></p>
+
+</div>
+<div id="section41" class="container-fluid">
+  <h2 class="italic">My Blog</h2>
+  <hr>
+  <h3 class="italic" align="left">diarytear.blogspot.in</h3>
+  <h4 class="italic" align="left">Khuli Kitab</h4>
+  <img src="image/blog.jpg" alt="eagle" width="600" height="350" align="center">
+  	<br>
+  	<br>
+  <p class="italic" class="small" align="left">{{project4}}</p>
+</div>
+  			</div>
+			</div>
+			</div>
+		</div>
+		<div class="col-sm-3 well" >
+
+			<img src="image/myprofile.gif" class="img-circle" alt="eagle" width="200" height="200" align="center">
+				<br>
+			<table class="table table-hover text-left">
+				<tbody>
+
+					<tr>
+						<td class="italic"><h5>Name</h5></td>
+						<td class="italic"><h5>{{name}}</h5></td>
+					</tr>
+					<tr>
+						<td class="italic"><h5>Addres</h5></td>
+						<td class="italic"><h5>{{addr}}<br>{{addr1}}</h5></td>
+					</tr>
+					<tr>
+						<td class="italic"><h5>Mob no.</h5></td>
+						<td class="italic"><h5>{{mobi}}</h5></td>
+					</tr>
+					<tr>
+						<td class="italic"><h5>Email</h5></td>
+						<td class="italic"><h6><a href="mailto:vishalsinghmrt94@gmail.com">{{email}}</a></h6></td>
+					</tr>
+				</tbody>
+
+			</table>
+			<hr>
+
+		      <a href="https://www.facebook.com/profile.php?id=100012444557272" class="fa fa-facebook"></a>
+					<a href="https://www.youtube.com/channel/UCXXLWzeLnGx3Ef-bKsH9fzQ" class="fa fa-youtube"></a>
+					<a href="https://plus.google.com/u/1/117972299368455653211" class="fa fa-google"></a>
+					<a href="https://www.linkedin.com/in/vishal-singh-a90120142/" class="fa fa-linkedin"></a>
+
+			<br>
+
+			<h2 class="italic" align="center">Profile</h2>
+			<a href="profile.html"><img src="image/profile1.png" class="img-circle" alt="eagle" width="200" height="200" align="center"></a>
+			<br>
+			<br>
+			<p><i>Here you can read a brief about me</i></p>
+
+		</div>
+
+	</div>
+	<hr>
+	<div class="row well">
+		<h2 class="italic" align="center">{{about}}</h2>
+
+		<div class="col-sm-3">
+		<img src="image/eagle.jpg" class="img-circle" alt="eagle" width="200" height="150" align="left">
+
+		</div>
+		<br>
+		<div class="col-sm-9 text-left">
+
+			<p><i>{{aboutPara}}<br>
+				{{aboutPara7}}<br></i></p>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-sm-12 text-left">
+	<form>
+    <div class="form-group">
+    <div class="col-xs-6">
+			<h2 class="italic" align="center" style="color: white;">Contact me</h2>
+   		<h3 style="color: #fff;"><label for="comment">Name:</label></h3>
+      	 <input type="name" name="name" class="form-control" placeholder="enter name" id="name">
+
+   		<h3 style="color: #fff;"><label for="comment">Email:</label></h3>
+      	 <input type="email" name="email" class="form-control" placeholder="enter email" id="email">
+      <h3 style="color: #fff;"><label for="comment">Comment:</label></h3>
+      <textarea class="form-control" rows="7" id="comment" placeholder="enter text"></textarea>
+    <br>
+    <button type="submit" class="btn btn-success btn-md">submit</button>
+    </div>
+    <div class="col-xs-5">
+			<div id="map">
+
+
+	    </div>
+
+    </div>
+    </form>
+		</div>
+	</div>
+	</div>
+</div>
+<hr>
+<footer class="container-fluid text-center">
+  <p>Copyright © 2017 All right reserved</p>
+</footer>
+
+<script>
+	function initMap() {
+		var uluru = {lat: 28.752867, lng: 77.499255};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 18,
+			center: uluru
+		});
+		var marker = new google.maps.Marker({
+			position: uluru,
+			map: map
+		});
+	}
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTlsXIgr5Vb2Y7Jxvwf2_8gcVmDNS7tC4&callback=initMap">
+</script>
+
+</body>
+</html>

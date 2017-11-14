@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>profile</title>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link type="text/css" media="all" href="assets/css/animate.css" rel="stylesheet" />
+   <link rel="stylesheet" type="text/css" href="mycv.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js">
+   <script type="text/javascript" src="js/mycv.js"></script>
+   <script src="js/myapp.js"></script>
+   <script src="js/control/myctrl.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQvS9RWA7JS_D_K-sJG-STGlJzOmW9E38=initMap">
+    </script>
+    <style>
+        img{
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 60px;
+
+  }
+
+    </style>
+</head>
+<body>
+<div  ng-app="myApp" ng-controller="myCtrl">
+    <div class="text-center">
+       <div class="row" >
+    <div class="col-sm-12">
+      <div >
+        <br><br>
+        <a href="index.html"><span class="fa fa-home" style="background: white; color: black;"></span></a>
+        <a href="https://www.facebook.com/profile.php?id=100012444557272"><span class="fa fa-facebook" style="background: white; color: black;"></span></a>
+        <a href="https://plus.google.com/u/1/117972299368455653211"><span class=" fa fa-google" style="background: white; color: black;"></span></a>
+        <a href="https://www.linkedin.com/in/vishal-singh-a90120142/"><span class="fa fa-linkedin" style="background: white; color: black;"></span></a>
+        <a href="https://www.youtube.com/channel/UCXXLWzeLnGx3Ef-bKsH9fzQ"><span class=" fa fa-youtube" style="background: white; color: black;"></span></a>
+    </div>
+    </div>
+  </div>
+        <div>
+            <div class="col-sm-12">
+            <img src="image/profile1.png" class="img-circle" alt="eagle" width="150" height="150" align="left">
+            <h3  class="italic" align="left" style=" margin-top: 70px; letter-spacing: 2px; font-size: 4em;">Profile </h3>
+            <p class="italic" class="small" align="left">A brief about me</p>
+            <hr>
+            </div>
+           <div class="col-sm-8 text-left">
+               <h4 class="italic" align="center" style="margin-left: 0px; letter-spacing: 2px; font-size: 2em;">About me</h4>
+               <p style="margin-left: 40px; margin-right: 30px;"><i>
+                {{aboutPara}}<br>
+                {{aboutPara1}}<br>
+                {{aboutPara2}}<br>
+                {{aboutPara3}}<br>
+                {{aboutPara4}}<br>
+                {{aboutPara5}}<br>
+                {{aboutPara6}}<br>
+                {{aboutPara7}}<br></i></p>
+           </div>
+           <div class="col-sm-4">
+               <table class="table table-hover text-left">
+                <thead>
+
+                    <tr>
+                        <th class="italic"><h5>Name</h5></th>
+                        <th class="italic"><h5>{{name}}</h5></th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>Addres</h5></th>
+                        <th class="italic"><h5>{{addr}}<br>{{addr1}}</h5></th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>Mob no.</h5></th>
+                        <th class="italic"><h5>{{mobi}}(whatsapp)</h5><h5>7534944169</h5></th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>Email</h5></th>
+                        <th class="italic"><h6><a href="mailto:vishalsinghmrt94@gmail.com">{{email}}</a></h6></th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>D.O.B</h5> </th>
+                        <th class="italic"><h5>01/05/1994</h5> </th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>github</h5> </th>
+                        <th class="italic"><a href="https://github.com/Vishal-singh-5"><h5>Vishal-Singh-5</h5></a> </th>
+                        <th class="italic"></th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>facebook</h5> </th>
+                        <th class="italic"><a href="https://www.facebook.com/profile.php?id=100012444557272"><h5>vishu singh</h5></a> </th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>blog</h5> </th>
+                        <th class="italic"><a href="diarytear.blogspot.in"><h5>Diarytear</h5></a> </th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>Youtube</h5> </th>
+                        <th class="italic"><a href="https://www.youtube.com/channel/UCXXLWzeLnGx3Ef-bKsH9fzQ"><h5>i vishal</h5></a> </th>
+                    </tr>
+                    <tr>
+                        <th class="italic"><h5>linkden</h5> </th>
+                        <th class="italic"><a href="https://www.linkedin.com/in/vishal-singh-a90120142/"><h5>vishal singh</h5></a> </th>
+                    </tr>
+                </thead>
+
+            </table>
+           </div>
+        </div>
+    </div>
+
+</div>
+<hr>
+<div><p></p></div>
+</body>
+</html>
